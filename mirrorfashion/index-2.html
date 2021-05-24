@@ -7,6 +7,7 @@
     <title>Mirror Fashion</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/newjavascript.js" type="text/javascript"></script>
 </head>
 <body>
     <header class="container">
@@ -30,10 +31,10 @@
         <div class="container destaque">
             <section class="busca">
                     <h2>Busca</h2>
-                    <form>
-                        <input type="search">
-                        <input type="image" src="img/busca.png">
-                    </form><!--fim da busca-->
+                    <form id="formBusca" name="formBusca" onsubmit="javascritp: return BotaoBuscar();">
+                        <input type="search" id="txtBusca" name="txtBusca">
+                        <input type="image" src="img/busca.png" alt="Buscar">
+                    </form>
             </section>
 
             <section class="menu-departamentos">
