@@ -25,10 +25,20 @@ header,
 
 .menu-opcoes ul li{
     display: inline;
+    padding-left: 05px;
+}
+.menu-opcoes a{
+    text-decoration: none;
+    color: gray;
+    padding: 05px;
+    padding-bottom: 0;
 }
 
-.menu-opcoes a{
-    color: #003366;
+.menu-opcoes a:hover{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 2px solid #054e96;
+    
 }
 .sacola{
     background: url(../img/sacola.png) no-repeat top right;
@@ -64,10 +74,17 @@ header,
     margin-bottom: 2px;
     padding: 5px 10px;
 }
-
+.menu-departamentos li:hover{
+    transform: scale(1.1);
+    border: grey;
+}
 .menu-departamentos a{
     color: #333333;
     text-decoration: none;
+}
+
+.menu-departamentos a:hover{
+    border-bottom: 2px solid gray;
 }
 
 .busca input{
@@ -150,7 +167,7 @@ body{
 #rodape{
     color: #777;
     margin: 05px 0;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 #rodape-img{
     margin-right: 30px;
@@ -205,7 +222,12 @@ body{
     text-align: center;
     text-decoration: none;
 }
-
+.painel li:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 footer{
     background-image: url(../img/fundo-rodape.png);
     clear: both;
