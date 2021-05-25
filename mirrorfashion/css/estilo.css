@@ -50,6 +50,7 @@ header,
     margin-right: 10px;
     width: 230px;
     float: left;
+    border-radius: 05px;
 }
 
 .busca h2,
@@ -71,6 +72,7 @@ header,
 
 .busca input{
     vertical-align: middle;
+    border-radius: 05px;
 }
 
 .busca input[type=search]{
@@ -115,6 +117,7 @@ header,
 }
 
 .diferente{
+    margin-bottom: 20px;
     margin-left: 20px;
     list-style: square;
 }
@@ -146,7 +149,7 @@ body{
 }
 #rodape{
     color: #777;
-    margin: 30px 0;
+    margin: 05px 0;
     padding: 30px 0;
 }
 #rodape-img{
@@ -167,11 +170,13 @@ body{
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    border-radius: 05px;
 
 }
 .novidades {
     float: left;
     background-color: #f5dcdc;
+    border-radius: 05px;
 }
 .mais-vendidos {
     float: right;
@@ -206,6 +211,7 @@ footer{
     clear: both;
     padding-left: 0;
     padding: 20px;
+    border-radius: 05px;
 }
 footer .container-rodape {
     position: relative;
